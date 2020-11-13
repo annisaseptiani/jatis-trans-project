@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="HubungiKami">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/customer_service"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fontFamily="@font/gothic_bold"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:text="Hubungi Kami" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:fontFamily="@font/gothic_normal"
+        android:textStyle="bold"
+        android:text="Kami siap membantu kamu, \nHubungi kami melalui :" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="vertical"
+            android:showDividers="end">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="end">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick_mail">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="25dp"
+                        android:src="@drawable/ic_contact_mail_black_24dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingVertical="15dp"
+                        android:paddingLeft="75dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="20dp"
+                            android:drawableEnd="@drawable/right_arrow"
+                            android:fontFamily="@font/gothic_bold"
+                            android:text="Email" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothic_normal"
+                            android:text="Indivara.com" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="end">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick_call">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:padding="25dp"
+                        android:src="@drawable/ic_call_black_24dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingVertical="15dp"
+                        android:paddingLeft="75dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="20dp"
+                            android:drawableEnd="@drawable/right_arrow"
+                            android:fontFamily="@font/gothic_bold"
+                            android:text="Call Center 150400" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothic_normal"
+                            android:text="Gunakan kode area untuk tarif lokal \n(cth, 021, 022)" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/activity_one"
+    tools:context=".BerandaActivity"
+    android:layout_marginTop="7dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carousel_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:fillColor="@color/colorPrimaryDark"
+        app:pageColor="#00000000"
+        app:radius="3dp"
+        app:slideInterval="3000"/>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

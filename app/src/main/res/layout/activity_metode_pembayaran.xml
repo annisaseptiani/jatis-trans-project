@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MetodePembayaran">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_bca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="BCA"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_Content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="BNI"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_Content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Cimb Niaga"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_Content4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="BRI"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_Content5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Danamon"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_Content6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="OCBC"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn_Content7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius"
+                    android:fontFamily="@font/gothic_normal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Permata Bank"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="7pt"
+                    android:textStyle="bold"></Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic_bold"
+                    android:padding="10dp"
+                    android:text="Syarat dan Ketentuan"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="8pt"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/gothic_normal"
+                    android:padding="10dp"
+                    android:text="@string/Isi_Syarat_dan_Ketentuan"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="5pt"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txt_price2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"></TextView>
+
+                <TextView
+                    android:id="@+id/txt_date2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"></TextView>
+
+                <TextView
+                    android:id="@+id/txt_class2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

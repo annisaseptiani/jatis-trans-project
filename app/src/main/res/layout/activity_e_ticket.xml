@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".E_ticket">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="@color/colorPrimary20"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="9pt"
+                android:padding="5dp"
+                android:text="VIP"
+                android:fontFamily="@font/gothic_bold">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/booking"
+                    android:textAlignment="textStart"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titik_2"
+                    android:textAlignment="center"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Booking"
+                    android:textAlignment="textEnd"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_kursi"
+                    android:textAlignment="textStart"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titik_2"
+                    android:textAlignment="center"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Booking"
+                    android:textAlignment="textEnd"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_pemesanan_2"
+                    android:textAlignment="textStart"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titik_2"
+                    android:textAlignment="center"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Booking"
+                    android:textAlignment="textEnd"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Kategori"
+                    android:textAlignment="textStart"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titik_2"
+                    android:textAlignment="center"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Booking"
+                    android:textAlignment="textEnd"
+                    android:textSize="7pt"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gothic_normal"
+                    android:textColor="@color/black">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/colorPrimary20"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="9pt"
+                android:padding="5dp"
+                android:text="@string/armada_bus"
+                android:fontFamily="@font/gothic_bold">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic_normal"
+                        android:text="Selasa, 21 Januari"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="7pt">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic_normal"
+                        android:text="8 Jam"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="7pt">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic_normal"
+                        android:text="Rabu, 22 Januari"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="7pt">
+                    </TextView>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/garis"
+                    android:layout_gravity="center">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic_normal"
+                        android:text="Jakarta"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="41dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="7pt">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic_normal"
+                        android:text="Bandung"
+                        android:textStyle="bold"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginBottom="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="7pt">
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_margin="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@color/colorPrimary20"-->
+<!--                android:src="@drawable/garis"-->
+<!--                android:layout_marginTop="50dp">-->
+<!--            </ImageView>-->
+
+<!--        </LinearLayout>-->
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KesamaanNamaPenumpang">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bantuan_pemesanan_judul"
+        android:fontFamily="@font/gothic_bold"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bantuan_2"
+        android:fontFamily="@font/gothic_normal"
+        android:textStyle="bold"
+        android:textSize="6pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bantuan_pemesanan_jawab"
+        android:fontFamily="@font/gothic_normal"
+        android:textStyle="bold"
+        android:textSize="6pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+
+</LinearLayout>

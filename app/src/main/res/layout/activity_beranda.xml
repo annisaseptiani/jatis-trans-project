@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandaActivity">
+
+    <include layout="@layout/carousel_main" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary20"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15pt"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center_vertical"
+                        android:drawableStart="@drawable/ic_person_pin_circle_black_24dp"
+                        android:text="@string/Tujuan"
+                        android:drawablePadding="7dp"
+                        android:padding="5dp"
+                        android:fontFamily="@font/gothic_bold">
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_tujuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginTop="10dp"
+                        android:spinnerMode="dropdown"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15pt"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center_vertical"
+                        android:drawableStart="@drawable/ic_near_me_black_24dp"
+                        android:text="@string/Keberangkatan"
+                        android:padding="5dp"
+                        android:drawablePadding="7dp"
+                        android:fontFamily="@font/gothic_bold">
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_keberangkatan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginTop="10dp"
+                        android:spinnerMode="dropdown"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15pt"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center_vertical"
+                        android:drawableStart="@drawable/ic_date_range_black_24dp"
+                        android:text="@string/Waktu"
+                        android:padding="5dp"
+                        android:drawablePadding="7dp"
+                        android:fontFamily="@font/gothic_bold">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/et_date"
+                        android:fontFamily="@font/gothic_normal"
+                        android:textSize="7pt"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:focusableInTouchMode="false"
+                        android:autofillHints=""
+                        android:inputType="text">
+                    </EditText>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_view"
+                android:layout_alignLeft="@+id/card_view"
+                android:layout_alignRight="@id/card_view"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="120dp"
+                android:elevation="10dp">
+
+                <Button
+                    android:id="@+id/btn_cari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_radius2"
+                    android:drawableRight="@drawable/ic_search"
+                    android:paddingHorizontal="30sp"
+                    android:paddingLeft="1sp"
+                    android:paddingTop="1sp"
+                    android:paddingRight="1sp"
+                    android:paddingBottom="1sp"
+                    android:text="@string/btn_cari"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/gothic_bold"
+                    android:textSize="6pt">
+                </Button>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="80dp"-->
+<!--            android:textSize="30sp"-->
+<!--            android:id="@+id/homeTitle1"-->
+<!--            android:textAlignment="center"/>-->
+
+<!--    </RelativeLayout>-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

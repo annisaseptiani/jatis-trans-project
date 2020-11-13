@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffdc34</color>
+    <color name="colorPrimaryDark">#110133</color>
+    <!--    <color name="colorAccent">#00918e</color>-->
+    <color name="colorAccent">#4dd599</color>
+    <color name="colorAccent2">#4dd599</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+
+
+    <color name="colorPrimary50">#80FFDC34</color>
+    <color name="colorPrimary20">#33FFDC34</color>
+    <color name="colorPrimary100">#00FFDC34</color>
+
+    <!--Home-->
+    <!--Button-->
+    <color name="Button_Search">#ffdc34</color>
+    <!--CardView Home-->
+    <color name="Card_View">#FFFFFF</color>
+    <!--Color Form-->
+    <color name="colorForm">#ffe79a</color>
+    <!--Color Benar dan Salah-->
+    <color name="green">#00FF0A</color>
+    <color name="red">#FF0000</color>
+</resources>

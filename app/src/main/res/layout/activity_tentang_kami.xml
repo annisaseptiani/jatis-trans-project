@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Tentang_Kami">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/gothic_bold"
+        android:text="@string/jatistrans"
+        android:textColor="@color/black"
+        android:textSize="10pt" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/gothic_normal"
+        android:text="@string/versi"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="6pt" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_app"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/gothic_normal"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:drawableStart="@drawable/ic_copyright_black_24dp"
+        android:drawablePadding="5dp"
+        android:textColor="@color/black"
+        android:textSize="6pt"/>
+</LinearLayout>
+
+

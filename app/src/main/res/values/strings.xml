@@ -1,0 +1,186 @@
+<resources>
+
+
+<string name="app_name">BotNavProjrct</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="rumah">Beranda</string>
+    <string name="pesanan">Pesanan</string>
+    <string name="beranda">Beranda</string>
+    <string name="order">Pesanan</string>
+    <string name="akun">Akun</string>
+
+    <string name="blank">%d</string>
+
+    <!--  Home  -->
+    <string name="Tujuan">Tujuan</string>
+    <string name="Keberangkatan">Keberangkatan</string>
+    <string name="Waktu">Tanggal Keberangkatan</string>
+    <string name="Kategori">Usia</string>
+    <string name="btn_cari">Cari</string>
+
+    <!--  Profile1  -->
+    <string name="nama">Brian Emanuel</string>
+    <string name="no_telp">081212345678</string>
+    <string name="email">Gaskeun12234@gmail.com</string>
+
+
+    <!-- Button Profile2   -->
+    <string name="penumpang_pendamping">Penumpang Pendamping</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="hubungi_kami">Hubungi Kami</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="pengaturan">Pengaturan</string>
+
+    <string name="logout">Logout</string>
+
+
+    <!--  About App  -->
+    <string name="jatistrans">Jatis Trans</string>
+    <string name="versi">beta version 1.0.0</string>
+    <string name="copyright">Copyright 2019</string>
+    <string name="slogan">"your travel partner solution"</string>
+
+
+    <!--  Setting  -->
+    <string name="negara">Negara</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="lainnya">Lain - lain</string>
+    <string name="copyright_setting">Copyright 2019 - Jatis Group Foundation</string>
+
+    <!-- register n login -->
+    <string name="hint_name">Nama</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="hint_nope">No Telepon</string>
+    <string name="Register">Register</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Daftar</string>
+    <string name="error_message_name">Masukkan Nama</string>
+    <string name="error_message_email">Masukkan Email yang Valid</string>
+    <string name="already_register">Already Registered? Login here</string>
+
+    <string name="hint_username">Email</string>
+
+    <string name="text_daftar">Daftar</string>
+    <string name="error_message_password">Masukkan Password</string>
+    <string name="success_message">Registrasi Sukses</string>
+    <string name="text_not_member">Belum punya akun? Daftar</string>
+    <string name="text_already_member">Sudah punya akun? Login</string>
+    <string name="error_email_exists">Email sudah tersedia</string>
+    <string name="error_password_match">Password tidak sesuai</string>
+    <string name="error_valid_email_password">Email atau Password salah</string>
+
+
+    <!--  Fragment Pesanan  -->
+    <string name="error_page">Oops…anda belum pernah melakukan transaksi</string>
+
+    <!--  Activity Bantuan  -->
+    <string name="bantuan_judul">Hey kamu, ada yang bisa\nkami bantu?</string>
+    <string name="bantuan_1">Apakah Jatis Trans menerima pembayaran dengan mata uang asing?</string>
+    <string name="bantuan_2">Apakah Nama pemesan harus sama dengan Nama penumpang pendamping?</string>
+    <string name="bantuan_3">Apa itu kode Promo?</string>
+    <string name="bantuan_4">Bagaimana melakukan pembatalan pemesanan tiket?</string>
+    <string name="bantuan_5">Bagimana cara melakukan update App?</string>
+
+    <!--  Content Activity Bantuan  -->
+    <string name="bantuan_pembayaran_judul"><u>Pembayaran</u></string>
+    <string name="bantuan_pembayaran_jawab">Tidak. Untuk pembayaran secara online atau kartu kredit, kami tidak bisa menerima pembayaran dengan mata uang asing.</string>
+
+    <string name="bantuan_pemesanan_judul"><u>Cara Pemesanan</u></string>
+    <string name="bantuan_pemesanan_jawab">Tidak. Karena nama pemesan tidak harus sama dengan nama penumpang, dapat diatur dengan cara megisi formulir yang telah disediakan.</string>
+
+    <string name="bantuan_promo_judul"><u>Kode Promo</u></string>
+    <string name="bantuan_promo_jawab">Kode promo adalah kode yang digunakan untuk mendapatkan potongan harga.</string>
+
+    <string name="pembatalan_tiket_judul"><u>Pembatalan Tiket</u></string>
+    <string name="pembatalan_tiket_jawab">Pembatalan tiket dapat diakukan sehari sebelum keberangkatan dan dikenakan biaya charge sebesar Rp. 20.000,-</string>
+
+    <string name="update_bantuan_judul"><u>Update Aplikasi</u></string>
+    <string name="update_bantuan_jawab">Melakukan update aplikasi dapat melalui Google Playstore atau Apple Store. Penting untuk diingat bahwa update perlu dilakukan demi kenyamanan penggunaan aplikasi. Terimakasih.</string>
+
+
+    <!-- Pilih Bus -->
+    <string name="armada_bus">Jatis Trans</string>
+    <string name="tipe_bus"><u>VIP</u></string>
+    <string name="tipe_bus2">Regular</string>
+    <string name="rawamangun_terminal">Terminal Rawamangun</string>
+    <string name="manggarai_terminal">Terminal Bus Manggarai</string>
+    <string name="taman_anggrek">Mall Taman Anggrek</string>
+    <string name="tanjungpriok_terminal">Terminal Tanjung Priok</string>
+    <string name="cicaheum_terminal">Terminal Cicaheum</string>
+    <string name="mytrans_terminal">Mytrans Baltos Bandung</string>
+    <string name="pooldamri_terminal">Pool DAMRI Bandung</string>
+    <string name="leuwipanjang_terminal">Terminal Leuwi Panjang</string>
+    <string name="harga_bus_vip">Rp.200.000</string>
+    <string name="harga_bus_reg">Rp.150.000</string>
+
+    <!-- AkunActivity Activity -->
+    <string name="nama_akun">Nama</string>
+    <string name="tgl_lahir_akun">Tanggal lahir</string>
+    <string name="email_akun">Email</string>
+    <string name="no_hp_akun">No. Handphone</string>
+
+
+    <!-- Seat -->
+    <string name="seat_textview">Seat :</string>
+    <string name="selesai_btn">Selesai</string>
+
+
+    <!-- Form Pembayaran -->
+    <string name="booking">Kode Booking</string>
+    <string name="no_kursi">Nomor Kursi</string>
+    <string name="no_pemesanan_2">No Pemesanan</string>
+    <string name="titik_2">:</string>
+
+    <!-- Form Pembayaran -->
+    <string name="order_id">Order Id :</string>
+    <string name="order_id_code">122334566789</string>
+    <string name="order_id_rute">Jakarta - Bandung</string>
+    <string name="order_id_tgl">21 Januari 2020</string>
+    <string name="order_id_armada">Trans Jatis</string>
+    <string name="order_id_lakukan">Lakukan Pembayaran dalam waktu :</string>
+    <string name="order_id_time">15:00</string>
+    <string name="order_id_nama_bank">Nama Bank :</string>
+    <string name="order_id_bank">BCA</string>
+    <string name="order_id_rekening">Kode Pembayaran Rekening Virtual</string>
+    <string name="order_id_bank_jumlah">Jumlah yang harus dibayarkan</string>
+    <string name="order_id_metode">Metode pembayaran</string>
+
+    <!-- Pemesanan -->
+    <string name="tanggal_peemsanan">Januari 2020</string>
+    <string name="no_pemesanan">Nomor pemesanan : </string>
+    <string name="no_seri_pemesanan">122334566789</string>
+    <string name="harga_pemesanan">Rp. 200.000</string>
+    <string name="rute_pemesanan">Jakarta - Bandung</string>
+    <string name="pemesana_berhasil">Pesanan Berhasil</string>
+    <string name="pemesanan_gagal">Pesanan dibatalkan</string>
+
+    <!-- UI -->
+    <string name="show_profile">Profile</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="user_name">Name</string>
+    <string name="user_password">Password</string>
+    <string name="user_email">E-mail</string>
+    <string name="user_phone">Phone</string>
+    <string name="user_location">Location</string>
+    <string name="user_bio">Bio</string>
+    <string name="user_profile_pic">Profile picture</string>
+
+    <!-- Buttons -->
+    <string name="edit_button_label">Edit</string>
+    <string name="save_button_label">Save</string>
+
+    <!--    No image file can be created after taking a picture
+            with the camera -->
+    <string name="image_file_creation_error_title">Cannot save this photo</string>
+    <string name="image_file_creation_error_message">
+        Empty your phone storage and check this app\'s permissions
+        in the Setting app.
+    </string>
+    <string name="Isi_Syarat_dan_Ketentuan">Tiket yang dipesan dapat dibatalkan 1 hari sebelumnya \n keberangkatan dengan denda Rp.20.000 per tiket</string>
+</resources>
